@@ -1,0 +1,46 @@
+ul {
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.leftnav {
+    float: left;
+}
+
+.rightnav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 12px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a button {
+    font-weight: bold;
+    line-height: 23px;
+    background-color: rgb(66, 134, 224);
+    border: 5px solid rgb(66, 134, 224);
+
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+li {
+    display: inline;
+
+}
+
+.mainbody {
+    padding-top: 200px;
+    text-align: center;
+}
+
