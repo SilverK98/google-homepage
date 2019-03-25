@@ -32,15 +32,69 @@ nav a button {
     border-radius: 3px;
 }
 
-
-
 li {
     display: inline;
 
 }
 
 .mainbody {
-    padding-top: 200px;
+    padding-top: 175px;
     text-align: center;
 }
 
+.logo {
+    padding-bottom: 15px;
+}
+
+.searchbox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 584px;
+    height: 44px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px lightgray;
+}
+
+.searchbar {
+    width: 530px;
+    height: 20px;
+    margin-left: 10px;
+    border: none;
+}
+
+#miclogo {
+    margin-right: 10px;
+}
+
+.searchbuttons {
+    padding-top: 35px;
+}
+
+.searchbuttons > input {
+    height: 35px;
+    color: rgb(75, 78, 78);
+    padding: 0px 12px;
+    margin: 0px 5px;
+    background-color: #eee;
+    border: 1px #eee;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding-top: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    background-color: #eee;
+    color: rgb(75, 78, 78);
+    text-align: center;
+}
